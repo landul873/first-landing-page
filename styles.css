@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+.header, .content{
+    display: flex;
+    background-color: #ae7648;
+    border-bottom: 1px solid #ae7648;
+    box-shadow: 0 0 8px black;
+}
+
+.header{
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.content{
+    /* min-width:fit-content; */
+    align-items: flex-start;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    /* flex-wrap:wrap; */
+}
+
+.content#one{
+    overflow-y: auto;
+    flex: 1;
+    height: 200px;
+}
+
+.content#two{
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.profile-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.username, .text-bar{
+    color:white;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1, h2{
+    color:#563b27;
+    font-weight: 1000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    /* text-shadow: 0 0 5px black; */
+}
+
+h2{
+    font-size: 35px;
+}
+
+.image-article{
+    padding-right: 10px;
+    height: 200px;
+    border: none;
+}
+
+article {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin: 3px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+article .body .member-name{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+article .head{
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 25px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+article .body{
+    text-align: justify;
+    margin: 3px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+article .body .member-name{
+    text-align: start;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+  background-color: #ae7648;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.character{
+    padding: 5px;
+    margin: 5px;
+}
